@@ -7,15 +7,23 @@ import Socials from './Socials'
 import FootSocials from './FootSocials'
 import { sanityClient }  from '../sanity'
 
-const fetchSetting = async () => {
-   const query = `*[_type == "setting"][0]{site_name,site_desc,site_footnote,link,mainmenu[]->{ title,link }}`
-   const data = await sanityClient.fetch(query)
-   return data;
-}
+// const fetchSetting = async () => {
+//    const query = `*[_type == "setting"][0]{site_name,site_desc,site_footnote,link,mainmenu[]->{ title,link }}`
+//    const data = await sanityClient.fetch(query)
+//    return data;
+// }
 
 async function Footer() {
-  const setting = await fetchSetting();
-  console.log(setting)
+  //   const setting = await fetchSetting();
+  const setting:any = {
+     site_name: 'Calvary Redemption Church',
+     site_desc: 'Calvary Redemption Church - Daban',
+     twitterUrl: 'https://dfds.com',
+     facebookUrl: 'https://dfds.com',
+     instagramUrl: 'https://dfds.com',
+     youtubeUrl: 'https://dfds.com',
+  };
+  
   return (
     <footer className="w-full">
       <section className="w-full md:h-96 bg-[#153B50E8] text-white">

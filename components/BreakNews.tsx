@@ -4,10 +4,10 @@ import { fetchNews } from '@/utils/api';
 
 
 async function BreakNews() {
-  const news = await fetchNews();
-
+  //const news = await fetchNews();
+  const news:any = []
   return (
-    <div className="w-full bg-neutral-600">
+    <div className="w-full bg-[#086ecd]">
         <div className="mx-auto px-2 md:px-6 w-full h-8 md:h-14 md:max-w-6xl flex space-x-1 divide-x-4 md:divide-x-8 divide-white/20">
             <div className="px-2 w-fit md:w-48 h-full flex items-center text-white text-xs md:text-inherit font-semibold border-r-4 md:border-r-8 border-red-900/40"><span className="mr-2 hidden md:flex">LATEST</span> NEWS</div>
             <div className="flex-1 h-full flex items-center">

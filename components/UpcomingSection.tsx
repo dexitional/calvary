@@ -4,8 +4,8 @@ import moment from 'moment'
 import { fetchEvents } from '@/utils/api';
 
 async function UpcomingSection() {
-  const events = await fetchEvents();
-
+  // const events = await fetchEvents();
+  const events:any = [];
   return (
     <div className="bg-white">
         <div className="py-10 flex flex-col items-center justify-center space-y-1">

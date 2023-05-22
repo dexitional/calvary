@@ -4,12 +4,12 @@ import Logo from '../public/logo.png'
 
 function EligibilityBox() {
   return (
-    <div className="z-1 relative w-full h-96 overflow-hidden">
+    <div className="z-1 relative w-full h-72 overflow-hidden">
         <Image src={Logo} alt="BG" className="z-10 absolute h-96 object-contain opacity-30" />
-        <div className="z-20 absolute h-full w-full flex flex-col items-center justify-center space-y-4 bg-[#1b7960]/80 text-white"></div>
-        <div className="z-30 px-10 py-6 h-full w-full flex flex-col items-center justify-center space-y-6 text-white">
-            <span className="z-40 leading-6 text-sm text-center">You don’t need to run for office to make a change. You can influence government decision-making through voting.</span>
-            <button className="px-4 py-3 z-40 rounded-sm border-2 border-white text-sm font-medium font-roboto">CHECK ELIGIBITY</button>
+        <div className="z-20 absolute h-full w-full flex flex-col items-center justify-center space-y-4 bg-[#086ecd]/95 text-white"></div>
+        <div className="z-30 h-full flex flex-col items-center justify-center">
+          <span className="z-40 text-center text-sm text-white font-semibold"><br/><span className="text-3xl font-extrabold border-white bg-gradient-to-r from-white via-green-50 to-white bg-clip-text text-transparent">PROPHETIC</span></span>
+          <p className="my-4 z-40 text-white">We cherish all moments about you</p>
         </div>
     </div>
   )

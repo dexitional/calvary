@@ -16,10 +16,10 @@ function NavPill({ title,link,subMenu = null }: Props) {
     <Menu as="div" className="relative ring-0 focus:ring-0">
         { !subMenu 
         ? <Link href={link} className="flex items-center space-x-0.5">
-            <span className="text-xs font-medium font-serif">{title}</span>
+            <span className="text-xs font-bold font-poppins">{title}</span>
           </Link>
         : <Menu.Button className="flex items-center space-x-2">
-            <span className="text-xs font-medium font-serif">{title}</span>
+            <span className="text-xs font-bold font-poppins">{title}</span>
             <BsCaretDownFill className="h-3 w-3 text-gray-500"/>
           </Menu.Button>
         }   

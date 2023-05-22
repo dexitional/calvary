@@ -13,15 +13,15 @@ export default function Home() {
   return (
     <main className="w-full">
        <Banner />
-       {/* <Statistics /> */}
+       <ElectionSection />
+       <Statistics />
        {/* @ts-ignore */}
-       <BreakNews />
-       <QuickGuide />
-       {/* <ElectionSection /> */}
+       {/* <BreakNews /> */}
+       {/* <QuickGuide /> */}
        {/* <EventSection /> */}
        {/* @ts-ignore */}
-       <UpcomingSection />
-       <NewsLetterBox />
+       {/* <UpcomingSection /> */}
+       {/* <NewsLetterBox /> */}
     </main>
   )
 }
