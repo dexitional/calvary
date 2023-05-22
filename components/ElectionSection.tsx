@@ -17,11 +17,11 @@ function ElectionSection() {
             <EligibilityBox />
             <InstructBox />
         </div>
-        <div className="mb-6 mx-auto w-[90%] md:w-4/5 grid grid-cols-1 md:grid-cols-3 gap-x-12">
-            <div className="relative w-full h-64 md:h-80 md:w-96 bg-red-100 col-span-1 md:rounded-tl-xl md:rounded-bl-xl overflow-hidden">
+        <div className="mb-6 mx-auto w-[90%] md:w-4/5 grid grid-cols-1 md:grid-cols-3 md:gap-x-12">
+            <div className="relative w-full h-64 md:h-80 md:w-96 bg-red-100 md:rounded-tl-xl md:rounded-bl-xl overflow-hidden">
                <Image src={Logo} alt={`Leader`} className="object-cover" fill />
             </div>
-            <article className="p-4 md:px-6 col-span-2 flex flex-col justify-center space-y-4 border-2 border-[#020a75] md:rounded-tr-xl md:rounded-br-xl ">
+            <article className="p-4 md:px-6 col-span-2 flex flex-col justify-center space-y-4 border-t-0 md:border-t-2 border-2 border-[#020a75] md:rounded-tr-xl md:rounded-br-xl ">
                 <h1 className="text-slate-800 font-semibold text-center md:text-left text-xl md:text-3xl leading-6">Welcome to the Calvary Redemption Chapel !!</h1>
                 <div className="text-[0.85rem] leading-5 font-medium md:font-normal md:text-base">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit non eveniet ea cumque. Numquam provident soluta porro possimus impedit aperiam quas alias accusantium illo nam? Ipsam ratione ducimus dolor.
