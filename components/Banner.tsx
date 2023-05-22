@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { BsArrowRightCircle } from 'react-icons/bs'
 function Banner() {
   return (
-    <div className={`w-full md:h-[35rem] `}>
+    <div className={`w-full h-[20rem] md:h-[35rem] `}>
       <div className="relative h-full w-full">
         <Image src={Bg} alt="" className="absolute left-0 w-full h-full object-cover"/>
         <div className="relative py-10 px-4 md:p-0 md:mx-auto h-full w-full md:max-w-6xl grid place-content-center">

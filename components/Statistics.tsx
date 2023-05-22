@@ -9,7 +9,7 @@ import { MdLocationOn } from 'react-icons/md'
 function Statistics() {
   return (
     <div className="w-full bg-[#086ecd]">
-        <div className="mx-auto px-6 h-24 w-full max-w-6xl grid grid-cols-4 gap-10 place-content-center">
+        <div className="mx-auto py-6 md:py-0 px-6 md:h-24 w-full max-w-6xl grid grid-cols-1 md:grid-cols-4 gap-10 place-content-center divide md:divide-y-0 divide-y-2 divide-dashed divide-opacity-30">
             <StatPill title="SUNDAY SERVICE" value="8:30 AM" Icon={BiCalendarEvent} />
             <StatPill title="WEDNESDAY SERVICE" value="8:00 PM" Icon={BiCalendarEvent} />
             <StatPill title="DAILY PODCAST" value="8:00 PM" Icon={GiAudioCassette} />
