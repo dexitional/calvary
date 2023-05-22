@@ -26,14 +26,14 @@ async function Footer() {
   
   return (
     <footer className="w-full">
-      <section className="w-full md:h-52 bg-[#020a75] text-white">
+      <section className="w-full md:h-48 bg-[#020a75] text-white">
          <div className="py-6 px-3 md:mx-auto h-full w-full md:max-w-6xl md:grid md:grid-cols-4 md:gap-x-20 md:place-items-center">
-             <div className="md:col-span-1 flex flex-col items-center justify-center space-y-4 md:space-y-10">
+             <div className="md:col-span-1 flex flex-col items-center justify-center space-y-4 md:space-y-4">
                 <div className="px-10 rounded bg-white/70 relative h-24 w-56"><Image src={Logo} alt="" className="object-contain" fill /></div>
                 {/* <h3 className="text-sm md:text-xl uppercase text-center font-serif">{setting.site_name}</h3> */}
                 <p className="text-[0.75rem] text-center font-medium">{setting.site_desc}</p>
              </div>
-             <div className="pt-6 col-span-2 md:w-4/5 hidden md:grid md:grid-cols-2 gap-24">
+             <div className="py-1 col-span-2 md:w-4/5 hidden md:grid md:grid-cols-2 gap-24">
                  <FootSection 
                     heading="Additional Links" 
                     links={
@@ -54,7 +54,7 @@ async function Footer() {
                     } 
                  />
              </div>
-             <div className="pt-6 md:col-span-1 md:place-self-start">
+             <div className="pt-1 md:col-span-1 md:place-self-start">
                 <FootSocials heading="Connect With Us" links={{ facebook:setting.facebookUrl,twitter:setting.twitterUrl,instagram:setting.instagramUrl,youtube:setting.youtubeUrl}} />
              </div>
          </div>

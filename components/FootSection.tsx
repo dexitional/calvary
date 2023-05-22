@@ -8,7 +8,7 @@ type Props = {
 
 function FootSection({ heading, links }: Props) {
   return (
-    <div className="space-y-6">
+    <div className="space-y-4">
         <h1 className="text-lg font-serif tracking-wide">{heading}</h1>
         <ul className="list-none space-y-2 divide-y divide-white divide-opacity-50 text-xs">
             { links?.map((row:any) => (
