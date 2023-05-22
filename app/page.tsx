@@ -7,6 +7,7 @@ import ElectionSection from "@/components/ElectionSection";
 import EventSection from "@/components/EventSection";
 import NewsLetterBox from "@/components/NewsLetterBox";
 import UpcomingSection from "@/components/UpcomingSection";
+import NewsSection from "@/components/NewsSection";
 
 export default function Home() {
 
@@ -15,6 +16,8 @@ export default function Home() {
        <Banner />
        <ElectionSection />
        <Statistics />
+       <NewsSection />
+       
        {/* @ts-ignore */}
        {/* <BreakNews /> */}
        {/* <QuickGuide /> */}

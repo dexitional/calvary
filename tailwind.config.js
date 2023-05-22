@@ -15,7 +15,7 @@ module.exports = {
         'bugee': ['"Bungee Outline"']
       },
       backgroundImage: {
-        'pattern': "url('../public/bg1.jpg')",
+        'pattern': "url('../public/bg2.jpg') center center",
         'bhuda': "url('../public/bg.avif')",
       }
     }
