@@ -12,6 +12,7 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif'],
         'roboto': ['Roboto', 'sans-serif'],
         'prism': ["'Tilt Prism'"],
+        'cinzel': ['Cinzel'],
         'bugee': ['"Bungee Outline"']
       },
       backgroundImage: {

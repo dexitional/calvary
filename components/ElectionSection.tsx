@@ -22,8 +22,8 @@ function ElectionSection() {
                <Image src={Founder} alt={`Leader`} className="object-cover object-top" fill />
             </div>
             <article className="p-4 md:px-6 col-span-2 flex flex-col justify-center space-y-4 border-t-0 md:border-t-2 border-2 border-[#020a75] md:rounded-tr-xl md:rounded-br-xl ">
-                <h1 className="text-slate-800 font-semibold text-center md:text-left text-xl md:text-3xl leading-6">Welcome to the Calvary Redemption Chapel !!</h1>
-                <div className="text-[0.85rem] leading-5 font-medium md:font-normal md:text-base">
+                <h1 className="text-slate-800 font-cinzel font-bold text-center md:text-left text-xl md:text-4xl leading-6">Welcome to the Calvary Redemption Chapel !!</h1>
+                <div className="text-[0.85rem] leading-5 font-roboto font-medium md:font-normal md:text-base">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel reprehenderit non eveniet ea cumque. Numquam provident soluta porro possimus impedit aperiam quas alias accusantium illo nam? Ipsam ratione ducimus dolor.
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, minus necessitatibus voluptatum cupiditate quaerat architecto cumque? Animi atque, ratione esse ea magnam facere, asperiores deserunt modi, obcaecati laudantium nihil voluptatibus.
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis non omnis eos accusamus reiciendis eius quibusdam dolor, excepturi odio consectetur eveniet error architecto minus quisquam unde quas ullam saepe nisi?
