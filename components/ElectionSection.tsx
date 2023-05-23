@@ -2,7 +2,7 @@ import React from 'react'
 import IntroVideoBox from './IntroVideoBox'
 import EligibilityBox from './EligibilityBox'
 import InstructBox from './InstructBox'
-import Logo from '../public/bg.jpg'
+import Founder from '../public/founder.jpg'
 import Image from 'next/image'
 
 function ElectionSection() {
@@ -19,7 +19,7 @@ function ElectionSection() {
         </div>
         <div className="mb-6 mx-auto w-[90%] md:w-4/5 grid grid-cols-1 md:grid-cols-3 md:gap-x-12">
             <div className="relative w-full h-64 md:h-80 md:w-96 bg-red-100 md:rounded-tl-xl md:rounded-bl-xl overflow-hidden">
-               <Image src={Logo} alt={`Leader`} className="object-cover" fill />
+               <Image src={Founder} alt={`Leader`} className="object-cover object-top" fill />
             </div>
             <article className="p-4 md:px-6 col-span-2 flex flex-col justify-center space-y-4 border-t-0 md:border-t-2 border-2 border-[#020a75] md:rounded-tr-xl md:rounded-br-xl ">
                 <h1 className="text-slate-800 font-semibold text-center md:text-left text-xl md:text-3xl leading-6">Welcome to the Calvary Redemption Chapel !!</h1>
