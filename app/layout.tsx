@@ -6,8 +6,8 @@ import Footer from '@/components/Footer'
 import MainHead from '@/components/Head'
 
 export const metadata = {
-  title: 'His Holiness B.T Swami Disciples',
-  description: 'His Holiness B.T Swami Disciples and Well-wishers Associations',
+  title: 'Calvary Redemption Church',
+  description: 'The Prayer City | Worship with us !!',
 }
 
 export default function RootLayout({
